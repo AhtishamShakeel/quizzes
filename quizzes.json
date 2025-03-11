@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "name": "Animals",
@@ -16,107 +16,68 @@
               "correctAnswer": 0
             },
             {
-              "text": "Which animal is known as the King of the Jungle?",
-              "options": ["Lion", "Tiger", "Elephant", "Gorilla"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "What do pandas mainly eat?",
-              "options": ["Bamboo", "Grass", "Fruits", "Fish"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "Which bird is known for its ability to mimic human speech?",
-              "options": ["Parrot", "Eagle", "Owl", "Penguin"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "How many legs does a spider have?",
-              "options": ["6", "8", "10", "4"],
+              "text": "Which animal is known as the 'King of the Jungle'?",
+              "options": ["Elephant", "Lion", "Tiger", "Cheetah"],
               "correctAnswer": 1
-            },
-            {
-              "text": "What is the largest mammal in the world?",
-              "options": ["Blue Whale", "Elephant", "Giraffe", "Hippopotamus"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "Which reptile is known for changing its color?",
-              "options": ["Chameleon", "Cobra", "Iguana", "Crocodile"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "What is the only flying mammal?",
-              "options": ["Bat", "Sparrow", "Eagle", "Pigeon"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "Which animal is famous for its black and white stripes?",
-              "options": ["Zebra", "Tiger", "Panda", "Skunk"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "Which animal can regrow its limbs?",
-              "options": ["Starfish", "Frog", "Snake", "Lizard"],
-              "correctAnswer": 0
             }
           ]
         },
         {
           "id": "2",
-          "title": "Animal Facts",
+          "title": "Aquatic Animals",
           "difficulty": "normal",
           "pointsReward": 15,
           "questions": [
             {
-              "text": "How many hearts does an octopus have?",
-              "options": ["1", "3", "5", "2"],
+              "text": "Which fish is known for its ability to inflate when threatened?",
+              "options": ["Clownfish", "Goldfish", "Pufferfish", "Shark"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What type of animal is a jellyfish?",
+              "options": ["Fish", "Mollusk", "Cnidarian", "Crustacean"],
+              "correctAnswer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cars",
+      "quizzes": [
+        {
+          "id": "1",
+          "title": "Car Brands",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "Which company produces the Mustang?",
+              "options": ["Chevrolet", "Ford", "Dodge", "Tesla"],
               "correctAnswer": 1
             },
             {
-              "text": "Which mammal lays eggs?",
-              "options": ["Platypus", "Dolphin", "Kangaroo", "Bat"],
-              "correctAnswer": 0
+              "text": "What is the luxury brand of Toyota?",
+              "options": ["Acura", "Infiniti", "Lexus", "Genesis"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Fast Cars",
+          "difficulty": "normal",
+          "pointsReward": 15,
+          "questions": [
+            {
+              "text": "Which car holds the record for the fastest production car?",
+              "options": ["Bugatti Chiron", "Koenigsegg Jesko", "SSC Tuatara", "Hennessey Venom F5"],
+              "correctAnswer": 2
             },
             {
-              "text": "Which sea creature has three hearts?",
-              "options": ["Octopus", "Shark", "Dolphin", "Jellyfish"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "What is the largest species of shark?",
-              "options": ["Whale Shark", "Great White Shark", "Hammerhead Shark", "Tiger Shark"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "What is a baby kangaroo called?",
-              "options": ["Joey", "Cub", "Calf", "Pup"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "Which bird is known for its ability to turn its head almost 360 degrees?",
-              "options": ["Owl", "Eagle", "Hawk", "Parrot"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "What is the slowest animal in the world?",
-              "options": ["Sloth", "Tortoise", "Snail", "Koala"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "Which animal sleeps the most hours per day?",
-              "options": ["Koala", "Cat", "Dog", "Sloth"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "Which animal is the symbol of the World Wildlife Fund (WWF)?",
-              "options": ["Panda", "Elephant", "Tiger", "Dolphin"],
-              "correctAnswer": 0
-            },
-            {
-              "text": "What is a group of lions called?",
-              "options": ["Pride", "Pack", "Herd", "Swarm"],
-              "correctAnswer": 0
+              "text": "Which Italian brand is famous for the Aventador?",
+              "options": ["Ferrari", "Lamborghini", "Maserati", "Alfa Romeo"],
+              "correctAnswer": 1
             }
           ]
         }
