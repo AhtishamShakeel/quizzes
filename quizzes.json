@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "categories": [
     {
       "name": "Animals",
@@ -32,7 +32,7 @@
               "text": "How many players are saon a soccer team?",
               "options": ["9", "10", "11", "12"],
               "correctAnswer": 2
-            }
+            },
             {
               "text": "In which sport would you perform a slam dunk?",
               "options": ["Basketball", "Volleyball", "Tennis", "Football"],
