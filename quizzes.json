@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "categories": [
     {
       "name": "Animals",
@@ -42,7 +42,7 @@
               "text": "How many players are on a standard soccer team on the field?",
               "options": ["9", "10", "11", "12"],
               "correctAnswer": 2
-            },
+            }
           ]
         }
       ]
