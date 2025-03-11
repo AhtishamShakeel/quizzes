@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "categories": [
     {
       "name": "Animals",
@@ -14,70 +14,24 @@
               "text": "What is the fastest land animal?",
               "options": ["Cheetah", "Lion", "Horse", "Tiger"],
               "correctAnswer": 0
-            },
-            {
-              "text": "Which animal is known as the 'King of the Jungle'?",
-              "options": ["Elephant", "Lion", "Tiger", "Cheetah"],
-              "correctAnswer": 1
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "title": "Aquatic Animals",
-          "difficulty": "normal",
-          "pointsReward": 15,
-          "questions": [
-            {
-              "text": "Which fish is known for its ability to inflate when threatened?",
-              "options": ["Clownfish", "Goldfish", "Pufferfish", "Shark"],
-              "correctAnswer": 2
-            },
-            {
-              "text": "What type of animal is a jellyfish?",
-              "options": ["Fish", "Mollusk", "Cnidarian", "Crustacean"],
-              "correctAnswer": 2
             }
           ]
         }
       ]
     },
     {
-      "name": "Cars",
+      "name": "Sports",
       "quizzes": [
         {
-          "id": "1",
-          "title": "Car Brands",
+          "id": "2",
+          "title": "Football Trivia",
           "difficulty": "easy",
           "pointsReward": 10,
           "questions": [
             {
-              "text": "Which company produces the Mustang?",
-              "options": ["Chevrolet", "Ford", "Dodge", "Tesla"],
-              "correctAnswer": 1
-            },
-            {
-              "text": "What is the luxury brand of Toyota?",
-              "options": ["Acura", "Infiniti", "Lexus", "Genesis"],
+              "text": "How many players are on a soccer team?",
+              "options": ["9", "10", "11", "12"],
               "correctAnswer": 2
-            }
-          ]
-        },
-        {
-          "id": "2",
-          "title": "Fast Cars",
-          "difficulty": "normal",
-          "pointsReward": 15,
-          "questions": [
-            {
-              "text": "Which car holds the record for the fastest production car?",
-              "options": ["Bugatti Chiron", "Koenigsegg Jesko", "SSC Tuatara", "Hennessey Venom F5"],
-              "correctAnswer": 2
-            },
-            {
-              "text": "Which Italian brand is famous for the Aventador?",
-              "options": ["Ferrari", "Lamborghini", "Maserati", "Alfa Romeo"],
-              "correctAnswer": 1
             }
           ]
         }
