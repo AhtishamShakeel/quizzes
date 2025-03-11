@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Animals",
+      "quizzes": [
+        {
+          "id": "1",
+          "title": "Wildlife Basics",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "What is the fastest land animal?",
+              "options": ["Cheetah", "Lion", "Horse", "Tiger"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal is known as the King of the Jungle?",
+              "options": ["Lion", "Tiger", "Elephant", "Gorilla"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What do pandas mainly eat?",
+              "options": ["Bamboo", "Grass", "Fruits", "Fish"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which bird is known for its ability to mimic human speech?",
+              "options": ["Parrot", "Eagle", "Owl", "Penguin"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "How many legs does a spider have?",
+              "options": ["6", "8", "10", "4"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the largest mammal in the world?",
+              "options": ["Blue Whale", "Elephant", "Giraffe", "Hippopotamus"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which reptile is known for changing its color?",
+              "options": ["Chameleon", "Cobra", "Iguana", "Crocodile"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is the only flying mammal?",
+              "options": ["Bat", "Sparrow", "Eagle", "Pigeon"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal is famous for its black and white stripes?",
+              "options": ["Zebra", "Tiger", "Panda", "Skunk"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal can regrow its limbs?",
+              "options": ["Starfish", "Frog", "Snake", "Lizard"],
+              "correctAnswer": 0
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Animal Facts",
+          "difficulty": "normal",
+          "pointsReward": 15,
+          "questions": [
+            {
+              "text": "How many hearts does an octopus have?",
+              "options": ["1", "3", "5", "2"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which mammal lays eggs?",
+              "options": ["Platypus", "Dolphin", "Kangaroo", "Bat"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which sea creature has three hearts?",
+              "options": ["Octopus", "Shark", "Dolphin", "Jellyfish"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is the largest species of shark?",
+              "options": ["Whale Shark", "Great White Shark", "Hammerhead Shark", "Tiger Shark"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is a baby kangaroo called?",
+              "options": ["Joey", "Cub", "Calf", "Pup"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which bird is known for its ability to turn its head almost 360 degrees?",
+              "options": ["Owl", "Eagle", "Hawk", "Parrot"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is the slowest animal in the world?",
+              "options": ["Sloth", "Tortoise", "Snail", "Koala"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal sleeps the most hours per day?",
+              "options": ["Koala", "Cat", "Dog", "Sloth"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal is the symbol of the World Wildlife Fund (WWF)?",
+              "options": ["Panda", "Elephant", "Tiger", "Dolphin"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is a group of lions called?",
+              "options": ["Pride", "Pack", "Herd", "Swarm"],
+              "correctAnswer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
