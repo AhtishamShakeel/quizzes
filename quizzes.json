@@ -1,19 +1,546 @@
 {
-  "version": 6,
+  "version": 7,
   "categories": [
     {
       "name": "Animals",
       "quizzes": [
         {
           "id": "1",
-          "title": "Wildlife Basics",
+          "title": "Animal Basics",
           "difficulty": "easy",
           "pointsReward": 10,
           "questions": [
             {
-              "text": "What is the fastest land animal?",
-              "options": ["Cheetah", "Lion", "Horse", "Tiger"],
+              "text": "Which is the fastest land animal?",
+              "options": ["Lion", "Cheetah", "Gazelle", "Horse"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal is known as the 'King of the Jungle'?",
+              "options": ["Tiger", "Lion", "Elephant", "Gorilla"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How many legs does a spider have?",
+              "options": ["4", "6", "8", "10"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal can fly the highest?",
+              "options": ["Eagle", "Vulture", "Falcon", "Goose"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What color is a polar bear's skin?",
+              "options": ["White", "Pink", "Black", "Yellow"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal can live the longest?",
+              "options": ["Elephant", "Bowhead Whale", "Giant Tortoise", "Parrot"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal sleeps standing up?",
+              "options": ["Giraffe", "Elephant", "Horse", "Cow"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What do you call a baby kangaroo?",
+              "options": ["Cub", "Joey", "Kit", "Pup"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these animals can't jump?",
+              "options": ["Dog", "Cat", "Elephant", "Frog"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal has the best sense of smell?",
+              "options": ["Shark", "Bloodhound", "Elephant", "Bear"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these is not a primate?",
+              "options": ["Gorilla", "Chimpanzee", "Koala", "Orangutan"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What animal has the longest lifespan?",
+              "options": ["Giant Tortoise", "Elephant", "Bowhead Whale", "Parrot"],
               "correctAnswer": 0
+            },
+            {
+              "text": "Which animal never sleeps?",
+              "options": ["Bat", "Dolphin", "Bullfrog", "Giraffe"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the only mammal that can fly?",
+              "options": ["Flying Squirrel", "Bat", "Sugar Glider", "Hummingbird"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has a blue tongue?",
+              "options": ["Giraffe", "Cheetah", "Blue Whale", "Skink"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal has the most teeth?",
+              "options": ["Shark", "Alligator", "Snail", "Hippopotamus"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal has the longest migration?",
+              "options": ["Monarch Butterfly", "Humpback Whale", "Arctic Tern", "Sea Turtle"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal can change its color?",
+              "options": ["Parrot", "Chameleon", "Dolphin", "Peacock"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has the best eyesight?",
+              "options": ["Owl", "Eagle", "Cat", "Hawk"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal is the tallest?",
+              "options": ["Elephant", "Giraffe", "Moose", "Camel"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Animal Habitats",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "Where do pandas naturally live?",
+              "options": ["Japan", "Thailand", "China", "Korea"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal lives in the Arctic?",
+              "options": ["Penguin", "Polar Bear", "Reindeer", "Seal"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these animals lives in the desert?",
+              "options": ["Camel", "Panda", "Sloth", "Dolphin"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Where would you find a coral reef?",
+              "options": ["Mountains", "Desert", "Ocean", "Grassland"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "In which continent would you find kangaroos naturally?",
+              "options": ["North America", "Europe", "Africa", "Australia"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "Where do emperor penguins live?",
+              "options": ["Arctic", "Antarctica", "South America", "Australia"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these animals lives in the rainforest?",
+              "options": ["Camel", "Polar Bear", "Toucan", "Penguin"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Where do mountain gorillas live?",
+              "options": ["Asia", "Africa", "South America", "Australia"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these is NOT found in the ocean?",
+              "options": ["Seahorse", "Starfish", "Jellyfish", "Silverfish"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "Which animal lives in the Savannah?",
+              "options": ["Panda", "Lion", "Polar Bear", "Penguin"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Where do orangutans naturally live?",
+              "options": ["Africa", "South America", "Asia", "Australia"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which bird lives in the Arctic?",
+              "options": ["Penguin", "Ostrich", "Arctic Tern", "Flamingo"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal lives primarily in bamboo forests?",
+              "options": ["Koala", "Panda", "Tiger", "Gorilla"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal lives in burrows underground?",
+              "options": ["Rabbit", "Deer", "Monkey", "Giraffe"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Where would you find a sloth?",
+              "options": ["African Savannah", "Rainforest", "Desert", "Arctic"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these animals lives in freshwater?",
+              "options": ["Shark", "Dolphin", "Beaver", "Whale"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Where would you find a meerkat?",
+              "options": ["Desert", "Rainforest", "Arctic", "Ocean"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal lives in the high mountains?",
+              "options": ["Snow Leopard", "Alligator", "Penguin", "Monkey"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "In which continent would you find jaguars naturally?",
+              "options": ["Asia", "Africa", "South America", "Australia"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal builds a lodge to live in?",
+              "options": ["Beaver", "Rabbit", "Fox", "Snake"],
+              "correctAnswer": 0
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Animal Diet",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "What do koalas mainly eat?",
+              "options": ["Bamboo", "Eucalyptus leaves", "Fish", "Insects"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal is a carnivore?",
+              "options": ["Elephant", "Giraffe", "Lion", "Horse"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a panda's favorite food?",
+              "options": ["Bamboo", "Fish", "Berries", "Nuts"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What do bees collect from flowers?",
+              "options": ["Water", "Seeds", "Nectar", "Leaves"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal is an omnivore?",
+              "options": ["Cow", "Rabbit", "Bear", "Sheep"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What do vultures mainly eat?",
+              "options": ["Seeds", "Fruit", "Insects", "Carrion"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What is the main diet of a giraffe?",
+              "options": ["Grass", "Leaves", "Insects", "Fruit"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal eats eucalyptus leaves?",
+              "options": ["Sloth", "Koala", "Panda", "Kangaroo"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a herbivore?",
+              "options": ["Meat eater", "Plant eater", "Omnivore", "Insect eater"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What food makes flamingos pink?",
+              "options": ["Berries", "Algae", "Shrimp", "Carrots"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What do most frogs eat?",
+              "options": ["Plants", "Seeds", "Insects", "Fish"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which of these animals is a scavenger?",
+              "options": ["Hawk", "Hyena", "Wolf", "Cheetah"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a sea turtle's favorite food?",
+              "options": ["Seaweed", "Small fish", "Jellyfish", "Crabs"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal mainly eats bamboo?",
+              "options": ["Red Panda", "Koala", "Sloth", "Gorilla"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What do woodpeckers mainly eat?",
+              "options": ["Seeds", "Insects", "Fruit", "Fish"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal is a filter feeder?",
+              "options": ["Shark", "Whale", "Dolphin", "Seal"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What does a chameleon eat?",
+              "options": ["Leaves", "Fruit", "Insects", "Seeds"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal is known for eating honey?",
+              "options": ["Fox", "Wolf", "Bear", "Deer"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the main food of an anteater?",
+              "options": ["Berries", "Ants", "Leaves", "Fish"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these is a vegetarian animal?",
+              "options": ["Dog", "Cat", "Rabbit", "Fox"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Animal Features",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "Which animal has tusks?",
+              "options": ["Lion", "Elephant", "Giraffe", "Zebra"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has a pouch?",
+              "options": ["Koala", "Kangaroo", "Lion", "Monkey"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has a shell?",
+              "options": ["Turtle", "Snake", "Fish", "Frog"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal has the longest neck?",
+              "options": ["Elephant", "Giraffe", "Ostrich", "Camel"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has a trunk?",
+              "options": ["Rhino", "Elephant", "Hippo", "Giraffe"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these animals has a horn?",
+              "options": ["Elephant", "Rhino", "Panda", "Lion"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has a prehensile tail?",
+              "options": ["Lion", "Dog", "Monkey", "Bear"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal has the largest brain?",
+              "options": ["Elephant", "Dolphin", "Sperm Whale", "Gorilla"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal has the longest tail?",
+              "options": ["Giraffe", "Peacock", "Whale", "Lizard"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these animals has scales?",
+              "options": ["Frog", "Lizard", "Turtle", "Snake"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has the strongest bite?",
+              "options": ["Lion", "Great White Shark", "Crocodile", "Hippopotamus"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal has a pouch to carry its young?",
+              "options": ["Kangaroo", "Koala", "Wombat", "All of these"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "Which animal has the longest tongue relative to its body?",
+              "options": ["Giraffe", "Chameleon", "Anteater", "Frog"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has the best hearing?",
+              "options": ["Elephant", "Bat", "Dog", "Cat"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has the largest eyes?",
+              "options": ["Elephant", "Giant Squid", "Whale", "Ostrich"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which animal has the most complex brain after humans?",
+              "options": ["Dolphin", "Elephant", "Chimpanzee", "Crow"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal has a venomous sting?",
+              "options": ["Butterfly", "Ladybug", "Scorpion", "Ant"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal has stripes?",
+              "options": ["Lion", "Elephant", "Zebra", "Giraffe"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which animal changes its coat color in winter?",
+              "options": ["Arctic Fox", "Polar Bear", "Penguin", "Seal"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which animal has the thickest fur?",
+              "options": ["Polar Bear", "Wolf", "Sea Otter", "Arctic Fox"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Animal Groups",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "What is a group of lions called?",
+              "options": ["Herd", "Pack", "Pride", "Flock"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a baby cat called?",
+              "options": ["Pup", "Calf", "Kitten", "Cub"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a group of wolves called?",
+              "options": ["Pack", "Herd", "School", "Pride"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is a baby sheep called?",
+              "options": ["Calf", "Foal", "Lamb", "Kid"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a group of fish called?",
+              "options": ["Flock", "Herd", "School", "Colony"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a baby horse called?",
+              "options": ["Calf", "Foal", "Pup", "Kid"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a group of crows called?",
+              "options": ["Murder", "Gaggle", "Flock", "Pod"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is a baby frog called?",
+              "options": ["Pup", "Calf", "Tadpole", "Froglet"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a group of whales called?",
+              "options": ["Herd", "School", "Pod", "Flock"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a baby eagle called?",
+              "options": ["Chick", "Eaglet", "Fledgling", "Hatchling"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a group of bears called?",
+              "options": ["Pack", "Sloth", "Drove", "Herd"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a baby kangaroo called?",
+              "options": ["Kid", "Joey", "Pup", "Calf"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a group of dolphins called?",
+              "options": ["School", "Pod", "Herd", "Flock"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a baby swan called?",
+              "options": ["Chick", "Cygnet", "Pup", "Duckling"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a group of elephants called?",
+              "options": ["Herd", "Pod", "Gang", "Pride"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is a baby cow called?",
+              "options": ["Calf", "Kid", "Lamb", "Foal"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is a group of giraffes called?",
+              "options": ["Tower", "Herd", "Flock", "Colony"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is a baby deer called?",
+              "options": ["Kid", "Calf", "Fawn", "Pup"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a group of owls called?",
+              "options": ["Flock", "Parliament", "Murder", "Hover"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a baby goat called?",
+              "options": ["Foal", "Kid", "Calf", "Lamb"],
+              "correctAnswer": 1
             }
           ]
         }
@@ -23,16 +550,11 @@
       "name": "Sports",
       "quizzes": [
         {
-          "id": "2",
-          "title": "Football Trivia",
+          "id": "1",
+          "title": "Popular Sports",
           "difficulty": "easy",
           "pointsReward": 10,
           "questions": [
-            {
-              "text": "How many players are saon a soccer team?",
-              "options": ["9", "10", "11", "12"],
-              "correctAnswer": 2
-            },
             {
               "text": "In which sport would you perform a slam dunk?",
               "options": ["Basketball", "Volleyball", "Tennis", "Football"],
@@ -42,6 +564,1073 @@
               "text": "How many players are on a standard soccer team on the field?",
               "options": ["9", "10", "11", "12"],
               "correctAnswer": 2
+            },
+            {
+              "text": "What sport is played at Wimbledon?",
+              "options": ["Golf", "Tennis", "Cricket", "Rugby"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "In which sport would you use a driver?",
+              "options": ["Racing", "Golf", "Hockey", "Skiing"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How many points is a touchdown worth in American football?",
+              "options": ["3", "6", "7", "9"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which sport uses a shuttlecock?",
+              "options": ["Badminton", "Table Tennis", "Tennis", "Squash"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "How many players are on each side in volleyball?",
+              "options": ["5", "6", "7", "8"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "In which sport do teams compete for the Stanley Cup?",
+              "options": ["Baseball", "Basketball", "Ice Hockey", "Soccer"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the diameter of a basketball hoop in inches?",
+              "options": ["16", "18", "20", "22"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these is not a swimming stroke?",
+              "options": ["Butterfly", "Backstroke", "Breaststroke", "Sidestroke"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What color are the goalposts in football (soccer)?",
+              "options": ["Blue", "Red", "Black", "White"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "How many holes are played in a standard round of golf?",
+              "options": ["9", "12", "18", "24"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which sport is played on a court with a net in the middle?",
+              "options": ["Basketball", "Tennis", "Soccer", "Golf"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "In which sport might you execute a 'slam'?",
+              "options": ["Tennis", "Volleyball", "Badminton", "Table Tennis"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is the highest possible score with a single dart?",
+              "options": ["50", "60", "75", "100"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these sports doesn't use a ball?",
+              "options": ["Hockey", "Cricket", "Badminton", "Rugby"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "How many quarters are in a basketball game?",
+              "options": ["2", "3", "4", "6"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "In which sport would you perform a vault?",
+              "options": ["Swimming", "Gymnastics", "Diving", "Archery"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What color is a standard tennis ball?",
+              "options": ["White", "Yellow", "Green", "Orange"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the national sport of Japan?",
+              "options": ["Judo", "Karate", "Sumo Wrestling", "Kendo"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Sports Equipment",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "Which sport uses a racket and a shuttlecock?",
+              "options": ["Tennis", "Squash", "Badminton", "Table Tennis"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What equipment is used to hit a baseball?",
+              "options": ["Racket", "Club", "Bat", "Stick"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which sport uses the lightest ball?",
+              "options": ["Table Tennis", "Tennis", "Baseball", "Basketball"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What do you wear on your feet when playing soccer?",
+              "options": ["Cleats", "Sneakers", "Skates", "Flippers"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What do golfers use to hit the ball?",
+              "options": ["Bat", "Racket", "Club", "Mallet"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What protective gear is worn by cricket batsmen?",
+              "options": ["Helmet", "Shoulder Pads", "Shin Guards", "Face Mask"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What do you throw in the sport of discus?",
+              "options": ["Ball", "Ring", "Plate", "Disc"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What is the target called in archery?",
+              "options": ["Bullseye", "Target", "Board", "Mark"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which sport uses a stick and a puck?",
+              "options": ["Field Hockey", "Ice Hockey", "Lacrosse", "Cricket"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What equipment is used to hit a volleyball over the net?",
+              "options": ["Racket", "Hands", "Bat", "Club"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What do boxers wear on their hands?",
+              "options": ["Mittens", "Gloves", "Wraps", "Pads"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What equipment is used in pole vaulting?",
+              "options": ["Rope", "Pole", "Bar", "Net"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is worn to protect the head in American football?",
+              "options": ["Cap", "Helmet", "Headband", "Visor"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What type of shoes are worn for ballet?",
+              "options": ["Toe Shoes", "Slippers", "Pointe Shoes", "Flats"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What do swimmers wear to protect their eyes?",
+              "options": ["Caps", "Goggles", "Masks", "Visors"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What equipment is used to play table tennis?",
+              "options": ["Racket", "Paddle", "Bat", "Club"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What do you need to play billiards?",
+              "options": ["Racket", "Cue", "Bat", "Mallet"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the projectile used in archery called?",
+              "options": ["Dart", "Bolt", "Arrow", "Javelin"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What equipment is used to hit a golf ball?",
+              "options": ["Racket", "Mallet", "Club", "Bat"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What do gymnasts use to prevent slipping?",
+              "options": ["Tape", "Chalk", "Powder", "Resin"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Sports Rules",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "How many points is a field goal worth in basketball?",
+              "options": ["1", "2", "3", "4"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is it called when a bowler knocks down all pins with two balls?",
+              "options": ["Strike", "Spare", "Turkey", "Split"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "In soccer, what is given for a serious foul?",
+              "options": ["Yellow Card", "Red Card", "Blue Card", "Green Card"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How many rounds are there in a professional boxing match?",
+              "options": ["6", "8", "10", "12"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "In tennis, what is a score of zero called?",
+              "options": ["Zero", "Nil", "Love", "Duck"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "How many bases are there on a baseball field?",
+              "options": ["2", "3", "4", "5"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What happens if you touch the net in volleyball?",
+              "options": ["Point for opponent", "Replay", "Warning", "Nothing"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "In which direction is cricket played?",
+              "options": ["Clockwise", "Counter-clockwise", "Both directions", "Depends on the stadium"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How many players are in a rugby union team?",
+              "options": ["11", "13", "15", "17"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the penalty for a false start in swimming?",
+              "options": ["Warning", "Disqualification", "Time penalty", "Point deduction"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "In basketball, how long can you hold the ball without dribbling?",
+              "options": ["3 seconds", "5 seconds", "10 seconds", "Unlimited time"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the duration of a professional soccer match?",
+              "options": ["45 minutes", "60 minutes", "90 minutes", "120 minutes"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "In golf, what is the term for completing a hole one stroke under par?",
+              "options": ["Eagle", "Birdie", "Bogey", "Par"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How many faults result in a point for the opponent in tennis?",
+              "options": ["1", "2", "3", "4"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the maximum number of clubs allowed in a golf bag during a round?",
+              "options": ["10", "12", "14", "16"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "In which sport is the term 'Deuce' used?",
+              "options": ["Badminton", "Tennis", "Table Tennis", "Squash"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How many points is a try worth in rugby union?",
+              "options": ["3", "5", "7", "9"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the standard length of an Olympic swimming pool?",
+              "options": ["25 meters", "50 meters", "75 meters", "100 meters"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How many periods are there in an ice hockey game?",
+              "options": ["2", "3", "4", "5"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the term for scoring 3 consecutive strikes in bowling?",
+              "options": ["Triple", "Hat Trick", "Turkey", "Strike Out"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Sports Celebrities",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "Which sport did Michael Jordan play?",
+              "options": ["Baseball", "Football", "Basketball", "Golf"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which country is Usain Bolt from?",
+              "options": ["USA", "Jamaica", "Kenya", "Canada"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which sport is Tiger Woods associated with?",
+              "options": ["Tennis", "Golf", "Swimming", "Boxing"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which soccer player is known as 'CR7'?",
+              "options": ["Cristiano Ronaldo", "Carles Puyol", "Carlos Roberto", "Charlie Robb"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which female tennis player has won the most Grand Slam titles?",
+              "options": ["Serena Williams", "Steffi Graf", "Martina Navratilova", "Margaret Court"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "Which boxer was known as 'The Greatest'?",
+              "options": ["Mike Tyson", "Muhammad Ali", "Floyd Mayweather", "Manny Pacquiao"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which swimmer has won the most Olympic gold medals?",
+              "options": ["Michael Phelps", "Mark Spitz", "Ian Thorpe", "Ryan Lochte"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which athlete is known as the 'Lightning Bolt'?",
+              "options": ["Michael Johnson", "Usain Bolt", "Carl Lewis", "Justin Gatlin"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which basketball player is known as 'King James'?",
+              "options": ["Kobe Bryant", "Michael Jordan", "LeBron James", "Shaquille O'Neal"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which cyclist won the Tour de France seven times (later stripped)?",
+              "options": ["Lance Armstrong", "Chris Froome", "Bradley Wiggins", "Eddy Merckx"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which sport did Wayne Gretzky play?",
+              "options": ["Baseball", "Football", "Hockey", "Basketball"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which soccer player is known as 'La Pulga' (The Flea)?",
+              "options": ["Cristiano Ronaldo", "Neymar", "Lionel Messi", "Luis Suarez"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which sport is Roger Federer associated with?",
+              "options": ["Golf", "Tennis", "Swimming", "Skiing"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which female gymnast has won the most Olympic gold medals?",
+              "options": ["Simone Biles", "Nadia Comaneci", "Larisa Latynina", "Shannon Miller"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which sport did Babe Ruth play?",
+              "options": ["Basketball", "Baseball", "Football", "Hockey"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which country is Manny Pacquiao from?",
+              "options": ["Philippines", "Thailand", "Mexico", "United States"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which Formula 1 driver has won the most World Championships?",
+              "options": ["Ayrton Senna", "Michael Schumacher", "Lewis Hamilton", "Sebastian Vettel"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which sport is Pelé associated with?",
+              "options": ["Basketball", "Tennis", "Soccer", "Golf"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which sport did Muhammad Ali compete in?",
+              "options": ["Wrestling", "Boxing", "Mixed Martial Arts", "Judo"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which cricket player is known as 'The Little Master'?",
+              "options": ["Brian Lara", "Sachin Tendulkar", "Ricky Ponting", "Virat Kohli"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Olympic Sports",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "In which Olympic sport would you perform a vault?",
+              "options": ["Swimming", "Diving", "Gymnastics", "Athletics"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "How many Olympic rings are there?",
+              "options": ["3", "4", "5", "6"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which of these is NOT an Olympic sport?",
+              "options": ["Archery", "Cricket", "Rowing", "Handball"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the national sport of Canada?",
+              "options": ["Ice Hockey", "Lacrosse", "Baseball", "Basketball"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which stroke is not used in Olympic swimming?",
+              "options": ["Butterfly", "Backstroke", "Doggy Paddle", "Breaststroke"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What color is the middle Olympic ring?",
+              "options": ["Blue", "Black", "Red", "Green"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which Olympic sport uses the term 'ippon'?",
+              "options": ["Archery", "Fencing", "Judo", "Taekwondo"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "In which Olympic event would you see the Fosbury Flop?",
+              "options": ["High Jump", "Long Jump", "Diving", "Swimming"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which is the oldest Olympic sport still played?",
+              "options": ["Wrestling", "Athletics", "Swimming", "Fencing"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which country hosted the first modern Olympic Games in 1896?",
+              "options": ["France", "Greece", "United Kingdom", "United States"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these is a Winter Olympic sport?",
+              "options": ["Water Polo", "Luge", "Beach Volleyball", "Handball"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How often are the Olympic Games held?",
+              "options": ["Every year", "Every 2 years", "Every 4 years", "Every 6 years"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which Olympic sport involves the use of epee, foil, and sabre?",
+              "options": ["Archery", "Fencing", "Shooting", "Javelin"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these is NOT a Winter Olympic sport?",
+              "options": ["Biathlon", "Skeleton", "Curling", "Rowing"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "How long is an Olympic swimming pool?",
+              "options": ["25 meters", "50 meters", "75 meters", "100 meters"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which country has won the most Summer Olympic medals?",
+              "options": ["China", "Russia", "USA", "UK"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "In which sport would you perform a 'Twizzle'?",
+              "options": ["Gymnastics", "Ice Dancing", "Diving", "Figure Skating"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which Olympic sport is played on a sheet?",
+              "options": ["Hockey", "Curling", "Figure Skating", "Speed Skating"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these became an Olympic sport most recently?",
+              "options": ["BMX Cycling", "Surfing", "Golf", "Rugby Sevens"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What color is the Olympic ring on the far right?",
+              "options": ["Blue", "Green", "Red", "Yellow"],
+              "correctAnswer": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science",
+      "quizzes": [
+        {
+          "id": "1",
+          "title": "Space Exploration",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "Which planet is known as the Red Planet?",
+              "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the name of our galaxy?",
+              "options": ["Andromeda", "Milky Way", "Triangulum", "Centaurus A"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Who was the first person to walk on the moon?",
+              "options": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "John Glenn"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the closest star to Earth?",
+              "options": ["Proxima Centauri", "Alpha Centauri", "Polaris", "The Sun"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "Which planet has the most moons?",
+              "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the largest planet in our solar system?",
+              "options": ["Earth", "Saturn", "Jupiter", "Neptune"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the name of the force that keeps planets orbiting the Sun?",
+              "options": ["Electromagnetic force", "Gravity", "Nuclear force", "Centrifugal force"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is a shooting star?",
+              "options": ["A star moving across space", "A comet", "A meteor", "A satellite"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which NASA space shuttle exploded shortly after launch in 1986?",
+              "options": ["Columbia", "Challenger", "Discovery", "Atlantis"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What does NASA stand for?",
+              "options": ["National Aeronautics and Space Administration", "North American Space Agency", "National Astronomical Study Association", "New Age Space Advancement"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is the name of the space telescope launched by NASA in 1990?",
+              "options": ["James Webb", "Spitzer", "Kepler", "Hubble"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "Which planet is known for its beautiful rings?",
+              "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the hottest planet in our solar system?",
+              "options": ["Mercury", "Venus", "Mars", "Jupiter"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the smallest planet in our solar system?",
+              "options": ["Earth", "Venus", "Mars", "Mercury"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What is the name of SpaceX's reusable rocket system?",
+              "options": ["Apollo", "Soyuz", "Falcon", "Atlas"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is a black hole?",
+              "options": ["A dead star", "A region where gravity is so strong nothing can escape", "A hole in space", "A theoretical concept"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "How many planets are in our solar system?",
+              "options": ["7", "8", "9", "10"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the name of Pluto's largest moon?",
+              "options": ["Triton", "Titan", "Europa", "Charon"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What is the Great Red Spot on Jupiter?",
+              "options": ["A volcano", "A giant storm", "A mountain range", "An impact crater"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What do we call a group of stars that forms a pattern?",
+              "options": ["Galaxy", "Nebula", "Constellation", "Cluster"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Physics Fundamentals",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "What is the unit of force?",
+              "options": ["Watt", "Joule", "Newton", "Pascal"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the speed of light in a vacuum?",
+              "options": ["300,000 km/s", "3,000,000 km/s", "30,000 km/s", "3,000 km/s"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which scientist is known for the theory of relativity?",
+              "options": ["Isaac Newton", "Albert Einstein", "Niels Bohr", "Galileo Galilei"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the basic unit of electric current?",
+              "options": ["Volt", "Watt", "Ampere", "Ohm"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What property of a material allows it to float on water?",
+              "options": ["Viscosity", "Density", "Buoyancy", "Malleability"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which of these is not a state of matter?",
+              "options": ["Solid", "Liquid", "Gas", "Energy"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What is the SI unit of energy?",
+              "options": ["Watt", "Joule", "Newton", "Coulomb"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the principle that states 'for every action, there is an equal and opposite reaction'?",
+              "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Law of Conservation of Energy"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the name of the point where an object balances?",
+              "options": ["Focal point", "Fulcrum", "Center of gravity", "Equilibrium point"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What type of energy does a moving object have?",
+              "options": ["Potential energy", "Kinetic energy", "Thermal energy", "Chemical energy"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which type of electromagnetic wave has the longest wavelength?",
+              "options": ["X-rays", "Visible light", "Microwaves", "Radio waves"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What instrument measures atmospheric pressure?",
+              "options": ["Barometer", "Thermometer", "Hygrometer", "Anemometer"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which scientist is known for his laws of motion?",
+              "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the smallest particle of an element that retains its chemical properties?",
+              "options": ["Atom", "Molecule", "Electron", "Proton"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is the phenomenon where light changes direction when passing from one medium to another?",
+              "options": ["Reflection", "Diffraction", "Refraction", "Dispersion"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What particles make up the nucleus of an atom?",
+              "options": ["Electrons and protons", "Protons and neutrons", "Neutrons and electrons", "Protons, neutrons, and electrons"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the unit of electrical resistance?",
+              "options": ["Ampere", "Volt", "Watt", "Ohm"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "Which of these is a renewable energy source?",
+              "options": ["Coal", "Natural gas", "Solar", "Petroleum"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What principle states that energy cannot be created or destroyed, only transformed?",
+              "options": ["Newton's First Law", "Law of Conservation of Energy", "Einstein's Theory of Relativity", "Archimedes' Principle"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the measure of how hot or cold something is?",
+              "options": ["Heat", "Energy", "Temperature", "Pressure"],
+              "correctAnswer": 2
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Great Inventions",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "Who is credited with inventing the telephone?",
+              "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What invention allows us to see distant objects closer?",
+              "options": ["Microscope", "Telescope", "Periscope", "Stethoscope"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Who invented the light bulb?",
+              "options": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Benjamin Franklin"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Which brothers are credited with the first successful airplane flight?",
+              "options": ["Wright brothers", "Marx brothers", "Lumière brothers", "Mario brothers"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What did Johannes Gutenberg invent in the 1440s?",
+              "options": ["Printing press", "Telescope", "Microscope", "Bicycle"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Who is considered the father of the World Wide Web?",
+              "options": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Mark Zuckerberg"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What invention did Percy Spencer accidentally discover while working with radar equipment?",
+              "options": ["X-ray", "Microwave oven", "Teflon", "Super glue"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Who invented the polio vaccine?",
+              "options": ["Louis Pasteur", "Jonas Salk", "Alexander Fleming", "Edward Jenner"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What device did Galileo invent to observe heavenly bodies?",
+              "options": ["Microscope", "Barometer", "Telescope", "Thermometer"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Who is credited with inventing the first practical camera?",
+              "options": ["Louis Daguerre", "Thomas Edison", "George Eastman", "Joseph Niepce"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What did Alfred Nobel invent?",
+              "options": ["Dynamite", "Machine gun", "Plastic", "Radar"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "Who invented the first successful vaccine against smallpox?",
+              "options": ["Louis Pasteur", "Alexander Fleming", "Edward Jenner", "Joseph Lister"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What invention by Karl Benz changed transportation forever?",
+              "options": ["Bicycle", "Steam engine", "Automobile", "Airplane"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Who invented the first programmable computer?",
+              "options": ["Alan Turing", "Charles Babbage", "John von Neumann", "Ada Lovelace"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What invention did James Watt significantly improve, leading to the Industrial Revolution?",
+              "options": ["Electric generator", "Steam engine", "Cotton gin", "Spinning jenny"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Who is credited with discovering penicillin?",
+              "options": ["Alexander Fleming", "Louis Pasteur", "Marie Curie", "Robert Koch"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What groundbreaking device did Martin Cooper develop in 1973?",
+              "options": ["Personal computer", "Digital camera", "Mobile phone", "Microwave oven"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Who invented the first practical incandescent light bulb?",
+              "options": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Benjamin Franklin"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What invention by Tim Berners-Lee revolutionized information sharing?",
+              "options": ["Email", "Internet", "World Wide Web", "Search engine"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Who invented bifocal lenses?",
+              "options": ["Benjamin Franklin", "Thomas Jefferson", "Isaac Newton", "Albert Einstein"],
+              "correctAnswer": 0
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "title": "Biology Basics",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "What is the basic unit of life?",
+              "options": ["Atom", "Cell", "Tissue", "Molecule"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What do plants use to make their own food?",
+              "options": ["Respiration", "Photosynthesis", "Digestion", "Excretion"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What carries oxygen around the human body?",
+              "options": ["White blood cells", "Platelets", "Red blood cells", "Plasma"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the largest organ in the human body?",
+              "options": ["Liver", "Brain", "Skin", "Heart"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the powerhouse of the cell?",
+              "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the name of the pigment that gives plants their green color?",
+              "options": ["Melanin", "Chlorophyll", "Hemoglobin", "Carotene"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What type of organism makes its own food?",
+              "options": ["Heterotroph", "Autotroph", "Omnivore", "Carnivore"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What are the building blocks of proteins?",
+              "options": ["Fatty acids", "Nucleotides", "Amino acids", "Glucose"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What organ is responsible for filtering blood in the human body?",
+              "options": ["Liver", "Kidney", "Heart", "Lung"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What process do plants use to release water vapor into the air?",
+              "options": ["Photosynthesis", "Respiration", "Transpiration", "Condensation"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the name of the liquid part of blood?",
+              "options": ["Serum", "Platelets", "Plasma", "Hemoglobin"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which of these is not a type of blood vessel?",
+              "options": ["Artery", "Capillary", "Vein", "Lymph"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What is the human body's first line of defense against infections?",
+              "options": ["White blood cells", "Skin", "Antibodies", "Vaccination"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "Which structure in a plant cell is not found in an animal cell?",
+              "options": ["Mitochondria", "Cell wall", "Nucleus", "Ribosome"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the main function of the lungs?",
+              "options": ["Pump blood", "Filter waste", "Exchange gases", "Produce hormones"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the molecule that carries genetic information in living organisms?",
+              "options": ["DNA", "RNA", "Protein", "Carbohydrate"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What is the process by which plants make food?",
+              "options": ["Respiration", "Photosynthesis", "Digestion", "Fermentation"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What type of organism breaks down dead organic matter?",
+              "options": ["Producer", "Consumer", "Decomposer", "Predator"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the main function of the small intestine?",
+              "options": ["Absorb nutrients", "Store waste", "Break down food", "Produce bile"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What do you call organisms that can't make their own food?",
+              "options": ["Autotrophs", "Heterotrophs", "Producers", "Phototrophs"],
+              "correctAnswer": 1
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "title": "Chemistry Questions",
+          "difficulty": "easy",
+          "pointsReward": 10,
+          "questions": [
+            {
+              "text": "What is the chemical symbol for gold?",
+              "options": ["Go", "Gd", "Au", "Ag"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the most abundant gas in Earth's atmosphere?",
+              "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the chemical formula for water?",
+              "options": ["H2O", "CO2", "O2", "H2O2"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What element has the atomic number 1?",
+              "options": ["Helium", "Hydrogen", "Carbon", "Oxygen"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the pH of pure water?",
+              "options": ["0", "7", "14", "10"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What are atoms of the same element with different numbers of neutrons called?",
+              "options": ["Ions", "Molecules", "Isotopes", "Compounds"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the lightest metal on the periodic table?",
+              "options": ["Helium", "Hydrogen", "Lithium", "Beryllium"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the chemical formula for table salt?",
+              "options": ["NaCl", "H2O", "CO2", "CaCO3"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What gas do plants absorb from the atmosphere?",
+              "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the chemical symbol for silver?",
+              "options": ["Si", "Sv", "Sr", "Ag"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "Which of these is a noble gas?",
+              "options": ["Oxygen", "Nitrogen", "Helium", "Hydrogen"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What element is represented by the symbol 'Fe'?",
+              "options": ["Fluorine", "Iron", "Fermium", "Francium"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the chemical formula for carbon dioxide?",
+              "options": ["CO", "CO2", "C2O", "C2O2"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the main component of natural gas?",
+              "options": ["Ethane", "Propane", "Methane", "Butane"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "Which of these is an alkaline metal?",
+              "options": ["Sodium", "Aluminum", "Chlorine", "Carbon"],
+              "correctAnswer": 0
+            },
+            {
+              "text": "What element has the symbol 'O'?",
+              "options": ["Osmium", "Oganesson", "Oxygen", "Oganium"],
+              "correctAnswer": 2
+            },
+            {
+              "text": "What is the chemical symbol for lead?",
+              "options": ["Ld", "Pb", "Le", "Pl"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What substance turns litmus paper red?",
+              "options": ["Base", "Acid", "Water", "Neutral solution"],
+              "correctAnswer": 1
+            },
+            {
+              "text": "What is the most abundant element in the universe?",
+              "options": ["Oxygen", "Helium", "Carbon", "Hydrogen"],
+              "correctAnswer": 3
+            },
+            {
+              "text": "What state of matter has no definite shape but a definite volume?",
+              "options": ["Solid", "Liquid", "Gas", "Plasma"],
+              "correctAnswer": 1
             }
           ]
         }
